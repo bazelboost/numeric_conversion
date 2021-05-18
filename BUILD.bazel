@@ -9,7 +9,7 @@ cc_library(
     name = "numeric_conversion_internal",
     hdrs = glob(["include/boost/**/*.hpp"], exclude = _public_hdrs),
     deps = [
-        "@boost//mpl",
+        "@boost//libs/mpl",
     ],
 )
 
